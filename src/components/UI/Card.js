@@ -1,8 +1,8 @@
 import "./Card.css";
-import _, { join } from "lodash";
+import { join } from "lodash";
 
 function Card(props) {
-  console.log(props.children);
+  // console.log(props.children);
   // const classes = "card" + props.className;
   const classes = join(["card", props.className], " ");
   // console.log("classess", classes);
