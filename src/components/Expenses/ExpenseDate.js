@@ -5,6 +5,9 @@ function ExpenseDate(props) {
   const year = props.date.toLocaleString("en-GB", { year: "numeric" });
   const day = props.date.toLocaleString("en-GB", { day: "numeric" });
 
+  // console.log(month, year, day);
+  // console.log(props.date);
+
   return (
     <div className="expense-date">
       <div className="expense-date__month">{month}</div>
